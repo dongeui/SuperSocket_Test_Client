@@ -1,0 +1,8 @@
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\bin\Debug\netcoreapp2.0\KDB_Test_Client.deps.json
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\bin\Debug\netcoreapp2.0\KDB_Test_Client.runtimeconfig.json
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\bin\Debug\netcoreapp2.0\KDB_Test_Client.runtimeconfig.dev.json
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\bin\Debug\netcoreapp2.0\KDB_Test_Client.dll
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\obj\Debug\netcoreapp2.0\KDB_Test_Client.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\obj\Debug\netcoreapp2.0\KDB_Test_Client.AssemblyInfoInputs.cache
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\obj\Debug\netcoreapp2.0\KDB_Test_Client.AssemblyInfo.cs
+c:\users\user\source\repos\KDB_Test_Client\KDB_Test_Client\obj\Debug\netcoreapp2.0\KDB_Test_Client.csprojResolveAssemblyReference.cache
