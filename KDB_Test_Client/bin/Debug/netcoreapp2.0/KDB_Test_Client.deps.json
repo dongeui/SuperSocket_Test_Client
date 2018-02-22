@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "dec6dbb4b6c3a2365674f822d7499ab8c020f4bf"
+    "signature": "ab71671a897f554580e396519b1f076062d5e889"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "KDB_Test_Client/1.0.0": {
         "dependencies": {
-          "SuperSocket": "1.6.6.1"
+          "SuperSocket": "1.6.6.1",
+          "SuperSocket.Engine": "1.6.6.1"
         },
         "runtime": {
           "KDB_Test_Client.dll": {}
@@ -27,6 +28,16 @@
           "lib/net45/SuperSocket.Common.dll": {},
           "lib/net45/SuperSocket.Facility.dll": {},
           "lib/net45/SuperSocket.SocketBase.dll": {}
+        }
+      },
+      "SuperSocket.Engine/1.6.6.1": {
+        "dependencies": {
+          "SuperSocket": "1.6.6.1",
+          "log4net": "2.0.3"
+        },
+        "runtime": {
+          "lib/net45/SuperSocket.SocketEngine.dll": {},
+          "lib/net45/SuperSocket.SocketService.exe": {}
         }
       }
     }
@@ -50,6 +61,13 @@
       "sha512": "sha512-hMlP4QRs6ofGi0xullU2Tcppk/Tc1j0jNdgxSqRXoe4yqzeZc637yTIjF3+GDC/tfZec1A7tKZB/gy5H0DotYQ==",
       "path": "supersocket/1.6.6.1",
       "hashPath": "supersocket.1.6.6.1.nupkg.sha512"
+    },
+    "SuperSocket.Engine/1.6.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mcbkv+EjgPJ015DohsVdomGrENSUT3e6WHzizo+AGY8Z5XSWYbPC03jJY5AmnZrvqDE9BE/WKl/W5advfPO91g==",
+      "path": "supersocket.engine/1.6.6.1",
+      "hashPath": "supersocket.engine.1.6.6.1.nupkg.sha512"
     }
   }
 }
