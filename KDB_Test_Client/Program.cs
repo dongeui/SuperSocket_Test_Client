@@ -13,6 +13,17 @@ namespace KDB_Test_Client
             Socket sck = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Parse("192.168.15.2"), 48484);
 
+
+            /*
+             719 장비 붙인 후에 프로토콜에 나와있는 사이즈대로 KDB 프로젝트 필터 렝스 수정해서 받아보고 
+             요청 안받아지면 팀장님한테 문서 정확도 물어보기
+             이것도 안되면 위아래로 +3정도까지 테스트 한 후에 문서랑 비교해보기
+
+             되면 커맨드 하나하나에 대하여 작성
+             다음주 수요일내로 커맨드에 대한 처리기반이 만들어져야 그걸 wcf라는 프레임웤에 어떻게 던져줄지 고민할 시간이 생김
+             */
+            
+
             try
             {
                 sck.Connect(localEndPoint);
@@ -33,34 +44,7 @@ namespace KDB_Test_Client
             Console.Read();
             sck.Close();
 
-            //Console.WriteLine("클라소켓");
-            /// 소켓 설정
-            // EndPoint serverAddress = new IPEndPoint(IPAddress.Parse("192.168.15.2"), 48484);
-
-            //using (Socket socket = new Socket(serverAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp))
-            //{
-            //    socket.Connect(serverAddress);
-            //    Console.WriteLine("SOCKET 연결 성공");
-
-            //    for (int i = 0; i < 5; i++)
-            //    {
-            //        Stream socketStream = new NetworkStream(socket);
-            //        using (StreamReader reader = new StreamReader(socketStream, Encoding.Default, true))
-            //        using (StreamWriter writer = new StreamWriter(socketStream, Encoding.Default, 1024 * 8))
-            //        {
-
-            //            string command = "HELLO ";
-            //            string[] parameters = new string[] { "Kerry", "Jiang", "China", "Shanghai" };
-            //            string parameter = Convert.ToBase64String(Encoding.ASCII.GetBytes(string.Join(" ", parameters)));
-            //            writer.WriteLine(command);
-            //            writer.Flush();
-            //            Console.WriteLine(i + "번째 HELLO 보내기 완료");
-
-            //        }
-            //    }
-
-
-            //}//using
+          
         }
     }
 }
